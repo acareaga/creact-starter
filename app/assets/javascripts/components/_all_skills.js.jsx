@@ -1,14 +1,6 @@
 var AllSkills = React.createClass({
-    getInitialState() {
-    return { skills: [] }
-  },
-
-  componentDidMount() {
-    console.log('Hello');
-  },
-
   render() {
-    var skills = this.state.skills.map((skill) => {
+    var skills = this.props.skills.map((skill) => {
       return (
         <div key={skill.id}>
           <h3>{skill.name}</h3>
@@ -18,7 +10,7 @@ var AllSkills = React.createClass({
       )
     });
 
-    return(
+    return (
       <div>
         {skills}
       </div>
