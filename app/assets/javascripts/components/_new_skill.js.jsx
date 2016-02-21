@@ -1,8 +1,8 @@
-var Header = React.createClass({
+var newSkill = React.createClass({
   render() {
     return (
       <div>
-        <Header />
+        <newSkill />
       </div>
     )
   }
