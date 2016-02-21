@@ -22,4 +22,4 @@ var NewSkill = React.createClass({
       </div>
     )
   }
-});g
+});
